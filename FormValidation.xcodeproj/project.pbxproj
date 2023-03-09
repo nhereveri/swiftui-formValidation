@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52452DDF29B952BD00275DB0 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52452DDE29B952BD00275DB0 /* CustomTextField.swift */; };
+		52452DE129B954CC00275DB0 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52452DE029B954CC00275DB0 /* CustomButton.swift */; };
+		52452DE329B955D400275DB0 /* RegisterUserView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52452DE229B955D400275DB0 /* RegisterUserView-ViewModel.swift */; };
 		5291BB6F29B9448000F9C1DE /* FormValidationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291BB6E29B9448000F9C1DE /* FormValidationApp.swift */; };
 		5291BB7129B9448000F9C1DE /* RegisterUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5291BB7029B9448000F9C1DE /* RegisterUserView.swift */; };
 		5291BB7329B9448700F9C1DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5291BB7229B9448700F9C1DE /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52452DDE29B952BD00275DB0 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		52452DE029B954CC00275DB0 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		52452DE229B955D400275DB0 /* RegisterUserView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RegisterUserView-ViewModel.swift"; sourceTree = "<group>"; };
 		5291BB6B29B9448000F9C1DE /* FormValidation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormValidation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5291BB6E29B9448000F9C1DE /* FormValidationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidationApp.swift; sourceTree = "<group>"; };
 		5291BB7029B9448000F9C1DE /* RegisterUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUserView.swift; sourceTree = "<group>"; };
@@ -53,6 +59,9 @@
 			children = (
 				5291BB6E29B9448000F9C1DE /* FormValidationApp.swift */,
 				5291BB7029B9448000F9C1DE /* RegisterUserView.swift */,
+				52452DE229B955D400275DB0 /* RegisterUserView-ViewModel.swift */,
+				52452DDE29B952BD00275DB0 /* CustomTextField.swift */,
+				52452DE029B954CC00275DB0 /* CustomButton.swift */,
 				5291BB7229B9448700F9C1DE /* Assets.xcassets */,
 				5291BB7429B9448700F9C1DE /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52452DE129B954CC00275DB0 /* CustomButton.swift in Sources */,
 				5291BB7129B9448000F9C1DE /* RegisterUserView.swift in Sources */,
 				5291BB6F29B9448000F9C1DE /* FormValidationApp.swift in Sources */,
+				52452DDF29B952BD00275DB0 /* CustomTextField.swift in Sources */,
+				52452DE329B955D400275DB0 /* RegisterUserView-ViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
